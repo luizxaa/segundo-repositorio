@@ -1,33 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url(/styles/apresentacao.css);
+@import url(/styles/header.css);
 
-
-}
-
-
-
-
-
-
-header {
-    background-color: #424242;
-    color: white;
-}
-
-.cabecalho {
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
-
-
-
-.cabecario-ista-item{
-    display: inline-block;
-    margin: 0 16px;
-    font-size: 24px;
-
+:root {
+    --cor-principal: #845EC2;
+    --cor-secundaria: #D65DB1;
+    --cor-rosa: #FF6F91;
+    --cor-laranja: #FF9671;
+    --cor-fundo: #FFC75F;
+    --cor-escrita: #F9F871;
+    --cor-botao: #00C9A7;
+    --cor-preto: #000000;
+    --cor-branco: #ffffff;
 }
