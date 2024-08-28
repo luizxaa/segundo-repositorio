@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página principal</title>
-
+    <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        
+     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/apresentacao.css">
 </head>
@@ -21,28 +24,55 @@
         <div class="container">
             <input type="checkbox"  id="menu"    class="container__botao">
             <label for="menu">
-                <span class="cabecalho__menu  container__imagem"> </span>
+                <span class="cabecalho__menu  container__imagem"> </span> 
             </label>
 
             <ul class="cabecalho-lista">
                 <li class="cabecalho-lista-titulo"> Categorias </li>
-                <li class="cabecalho-lita item"> <a href="#"
-                     class="menu__lista-item">  </a> </li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Serviços</a></li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Projetos</a></li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Contato </a></li>
+            </ul>
+      
+            <img class="cabecalho-imagem  container__imagem" src="./img/alurastart_logo.png" alt="logo AluraStart">
+            <h1 class="container-titulo"> NOME da Empresa </h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox"   id="opcoes-menu"    class="opcoes__botao">
+            <label for="opcoes-menu"> 
+                <li class="opcoes__item"> CATEGORIAS </li>
+            </label>
+
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 1 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 2 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 3 </a>
+                </li>
             </ul>
 
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  Escola  </a> </li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">  Estudante  </a></li>
 
-        </div>
-        <span class="cabecalho__menu-hamburguer"> </span>
-        <img class="cabecalho-imagem" src="img/alurastart_logo.png" alt="logo AluraStart">
-
-        <a href="#"> <img src="img/favoritos.svg" alt=""> </a>
-        <a href="#"> <img src="img/compras.svg" alt=""> </a>
-        <a href="#"> <img src="img/usuario.svg" alt=""> </a>
-
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Escola</li>
-            <li class="cabecalho-lista-item">Estudantes</li>
         </ul>
+
+        <div class="container">
+            <a href="#"> <img  class="cabecalho-imagem cabecalho__favorito" src="./img/favoritos.svg" alt="Meus favoritos"> </a>
+            <a href="#" class="container__link" >
+                <img class="cabecalho-imagem" src="./img/compras.svg" alt="Carrinho de compras">
+                <p class="container__texto"> Minha Sacola </p>
+            </a>
+            <a href="#" class="container__link" >
+                <img  class="cabecalho-imagem"  src="img/usuario.svg" alt="Meu Perfil">
+                <p class="container__texto" >Meu Perfil</p>
+            </a>
+        </div>
+        
     </header>
 
     <section class="escola">
@@ -55,7 +85,33 @@
         </div>
         <img src="img/Online learning-amico.svg" alt="imagem da escola" class="escola-imagem">
 
-    </section>
+    </section class="carrosel">
+    <h2 class="carrosel__titulo">Nossos Produtos</h2>
+    <!-- Slider main container -->
+        <div class="swiper">
+        !-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="./img/Produtos0.jpeg" alt=""></div>
+        <div class="swiper-slide"><img src="./img/favoritos.svg" alt=""></div>
+        <div class="swiper-slide"><img src="./img/produtoo02.png" alt="">/div>
+        ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+  
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+  
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+  </div>
+  
+<section>
+
+</section>
+
 
     <section class="estudante">
         <h2 class="estudante-titulo">Quem sou</h2>
@@ -71,7 +127,7 @@
     <footer class="rodape">
         <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
     </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
 </body>
 
 </html>
