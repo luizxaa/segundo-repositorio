@@ -18,7 +18,17 @@ function criaCartao (item, pergunta, resposta) {
                     <p>${resposta}</p>
                 </div>
             </div>     
-    `
-    flahcard.appendChield(cartao);
+      `
+      let respostaEstavisivel = false;
 
-}
+      function viracartao () {
+        respostaEstavisivel= !variavelEstavisisvel;
+        cartao.classList.toggle('active', viracartao);
+      }
+
+      cartao.addEventListener('click', viracartao)
+
+
+    
+
+    flahcard.appendChield(cartao);
