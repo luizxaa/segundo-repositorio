@@ -4,7 +4,7 @@
 @import url(/styles/flashcard.css);
 
 :root {
-    --cor-principal: #845EC2;
+    --cor-principal: #000000;
     --cor-secundaria: #D65DB1;
     --cor-rosa: #FF6F91;
     --cor-laranja: #FF9671;
@@ -12,5 +12,5 @@
     --cor-escrita: #F9F871;
     --cor-botao: #00C9A7;
     --cor-preto: #000000;
-    --cor-branco: #ffffff;
+    --cor-branco: #727272;
 }
