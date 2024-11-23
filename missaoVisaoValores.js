@@ -13,6 +13,5 @@ criaCartao (
 criaCartao (
     'Valores',
     'Saiba quais são os valores de nossa empresa!',
-    'Nossos valores são ....Conduzir negócios de forma
- 'ética e transparente Buscar melhorias e inovações em nossos produtos Valorizar e desenvolver os colaboradores para alcançarmos nossos objetivos'
+    'Nossos valores são ....Conduzir negócios de forma ética e transparente Buscar melhorias e inovações em nossos produtos Valorizar e desenvolver os colaboradores para alcançarmos nossos objetivos'
 )
