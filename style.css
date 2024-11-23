@@ -5,12 +5,9 @@
 
 :root {
     --cor-principal: #000000;
-    --cor-secundaria: #D65DB1;
-    --cor-rosa: #FF6F91;
-    --cor-laranja: #FF9671;
-    --cor-fundo: #FFC75F;
-    --cor-escrita: #F9F871;
-    --cor-botao: #00C9A7;
-    --cor-preto: #000000;
+    --cor-5: #303030;
+    --cor-3: #5e5e5e;
+    --cor-4: #919191;
+    --cor-secundaria: #c6c6c6;
     --cor-branco: #ffffff;
 }
